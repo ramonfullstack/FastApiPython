@@ -1,0 +1,9 @@
+Instale primeiro o fastapi
+pip install fastapi
+
+Instale o uvicorn para levantar o servidor
+pip install uvicorn
+ou pip install "uvicorn[standard]"
+
+Para levantar o servidor em uma porta
+uvicorn main:app --reload
